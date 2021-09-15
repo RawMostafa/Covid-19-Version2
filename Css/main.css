@@ -1,0 +1,1225 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.966);
+}
+
+.navbar img {
+    width: 100px;
+    height: 40px;
+}
+.fa-chevron-circle-down{
+    color: rgb(255, 255, 255);
+}
+.navbar a {
+    color: rgb(255, 255, 255);
+    font-size:18px;
+}
+.nav-link {
+   margin-left: 50px;
+ }
+.navbar a:hover {
+    color: rgb(150, 9, 9);
+    font-size:18.5px;
+}
+.Do-Dont {
+    background-color: rgb(150, 9, 9);
+    margin-left: 25px;
+    padding-right: 50px;
+}
+.Do-Dont:hover {
+    background-color: white;
+}
+/* End Style of nave */
+.part1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.teahub.io/photos/full/3-34083_photo-wallpaper-earth-the-world-continents-black-world.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.part1 input{
+    background-color:rgba(255, 255, 255, 0.247);
+    margin-left: 15%;
+    width: 70%;
+}
+.part1 h1 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    left: 1%;
+    top: 65%;
+}
+
+.part1 h4 {
+    font-size: 40px;
+    color: rgb(150, 9, 9);
+    font-family: 'Anton', sans-serif;
+    position: absolute;
+    left: 3%;
+    top: 75%;
+}
+
+/* End Style of Part one */
+.part2 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.part2 p {
+    color: white;
+    margin-top: 10%;
+    font-size: 15px;
+}
+
+.part2 .image img {
+    width: 60%;
+    height: 60%;
+    margin-top: 10%;
+}
+
+.part2 button {
+    margin-top: 5%;
+    background-color: white;
+    color: rgb(150, 9, 9);
+    width: 25%;
+    height: 6%;
+    margin-right: 30%;
+}
+.part2 button a{
+    color: rgb(150, 9, 9);
+    font-size: 18px;
+    text-decoration: none;
+}
+.part2 button a:hover{
+    font-size: 18.5px;
+}
+.part2 button:hover {
+    background-color: rgb(150, 9, 9);
+    color: white;
+}
+
+.part2 a {
+    color: rgb(150, 9, 9);
+    font-size: 20px;
+}
+
+.part2 a:hover {
+    color: white;
+    font-size: 20.5px;
+}
+
+.part2 .image2 {
+    width: 100%;
+    height: 70%;
+    margin-top: 25%;
+}
+
+.numbers {
+    width: 65%;
+    height: 13%;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+.title1 {
+    color: rgb(199, 173, 23);
+}
+
+.title2 {
+    color: rgb(199, 173, 23);
+    margin-left: 40px;
+}
+
+.title3 {
+    color: rgb(199, 173, 23);
+    margin-left: 20px;
+}
+
+.no1 {
+    color: rgb(199, 173, 23);
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.no2 {
+    color: rgb(199, 173, 23);
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.no3 {
+    color: rgb(199, 173, 23);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Alert {
+    color: rgb(100, 99, 99);
+    margin-top: 20px;
+}
+.part2 h2{
+    color: rgb(199, 173, 23);
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    display: none;
+}
+.part2 h1 {
+    font-size:35px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    display: none;
+    text-align: center;
+}
+@media(max-width:650px)
+{
+    .part2 {
+
+       padding-bottom: 20%;
+    }
+    .part2 .image img {
+        margin-left: 20%;
+    }
+    .part2 button{
+    margin-left: 20%;
+    width: 60%;
+    height: 5%;
+    } 
+    .part2 button a{
+        color: rgb(150, 9, 9);
+        font-size: 15px;
+        margin-left: 1px;
+    }
+    .part2 button a:hover{
+        font-size: 15.5px;
+        
+    }
+    .part2 a{
+        font-size: 15px;
+        font-weight: bold;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+    .part2 a:hover {
+        font-size: 15.5px;
+    }
+    .numbers{
+        margin-left: 25%;
+    }
+
+    .part2{
+        height:80%;
+    }
+    .Alert{
+        font-size: 10px;
+        margin-top: 50%;
+    }
+    .part2 h2{
+        display: block;
+    }
+    .part2 h1 {
+        display: block;
+    }
+}
+/* End Style of Part Two */
+.ABOUT {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.ABOUT h4 {
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    margin-top: 100px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.ABOUT h1 {
+    font-size: 45px;
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+.ABOUT h3 {
+    color: rgb(150, 9, 9);
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 30px;
+}
+
+.ABOUT p {
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.frame {
+    width: 60%;
+    border: solid rgb(199, 173, 23) 1px;
+    margin-top: 120px;
+    margin-left: 30%;
+}
+
+.frame i {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    right: 30px;
+    top: 45%;
+}
+
+.frame .container {
+    color: rgb(199, 173, 23);
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border: solid rgb(199, 173, 23) 1px;
+    position: relative;
+}
+
+.frame a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.frame a:hover {
+    color: rgb(199, 173, 23);
+    font-size: 21px;
+    text-decoration: underline;
+}
+@media(max-width:650px)
+{
+    .frame {
+        width: 100%;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
+    .frame a {
+        font-size: 15px;
+    }
+    .frame a:hover {
+        font-size: 15.5px;
+    }
+    .frame .container {
+        font-size: 18px;
+    }
+    
+}
+/* End Style of Part Three */
+.TRANSMISSION {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10%;
+    margin-bottom: 20%;
+}
+
+.TRANSMISSION h4 {
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.TRANSMISSION h1 {
+    font-size: 45px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.TRANSMISSION p {
+    color: rgb(199, 173, 23);
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 15px;
+}
+
+.TRANSMISSION .card {
+    width: 90%;
+    height: 80%;
+    background-color: transparent;
+}
+
+.TRANSMISSION .card img {
+    border-bottom: 2px rgb(199, 173, 23) solid;
+}
+
+.TRANSMISSION .card h2 {
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.TRANSMISSION .card p {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+
+.TRANSMISSION button {
+    width: 24%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+    background-color: rgb(167, 13, 13);
+    color: white;
+    border: solid 1px white;
+    border-radius: 23px;
+    margin-left: 40%;
+    font-size: 16px;
+}
+.TRANSMISSION button a {  
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+}
+.TRANSMISSION button:hover {
+    font-size: 17px;
+    background-color: rgb(155, 13, 13);
+}
+@media(max-width:650px)
+{
+    .TRANSMISSION {
+        margin-top: 300%;
+        }
+    .TRANSMISSION h4 {
+        font-size: 18px;
+    }
+    
+    .TRANSMISSION h1 {
+        font-size: 35px;
+    }
+    .TRANSMISSION p {
+        color: white;
+    }
+    .TRANSMISSION .card {
+        width: 100%;
+        border: solid 1px rgb(199, 173, 23);
+        padding-bottom: 30%;
+        
+    }
+    .TRANSMISSION button {
+        width: 95%;
+        margin-top: 10px;
+        margin-left: 5px;
+        font-size: 16px;
+    }
+    
+    .TRANSMISSION button:hover {
+        font-size: 16.5px;
+        background-color: rgb(155, 13, 13);
+    }
+}
+
+/* End Style of Part Four */
+.SYMPTOMS {
+    width: 100%;
+    height: 80vh;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.SYMPTOMS h4 {
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.SYMPTOMS h1 {
+    font-size: 45px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.SYMPTOMS p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 15px;
+}
+
+.SYMPTOMS .card {
+    background-color: transparent;
+}
+
+.SYMPTOMS .card-body {
+    background-color: transparent;
+    border: 0.5px solid rgb(167, 13, 13);
+    margin-top: 50px;
+    border-radius: 23px;
+}
+
+.SYMPTOMS .card-body img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    left: 70%;
+    top: 0px;
+    background-color: white;
+
+}
+
+.SYMPTOMS .card h2 {
+    color: rgb(167, 13, 13);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.SYMPTOMS .card p {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+@media(max-width:650px)
+{
+    .SYMPTOMS {
+        margin-top:420%;
+    }
+    .SYMPTOMS h4 {
+        font-size: 20px;
+    }
+    
+    .SYMPTOMS h1 {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    
+    .SYMPTOMS p {
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 15px;
+    }
+    .SYMPTOMS .card-body {
+        margin-bottom: 25px;
+    }
+}    
+    
+/* End Style of Part Five */
+.Alart {
+    width: 100%;
+    height: 60vh;
+    padding-top: 10%;
+}
+
+.Alart h1 {
+    color: rgb(167, 13, 13);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Alart i {
+    color: rgb(167, 13, 13);
+    font-size: 60px;
+}
+
+.Alart h2 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Alart button {
+    background-color: rgb(150, 9, 9);
+    border: solid 1px white;
+    border-radius: 23px;
+    color: white;
+    font-size: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-top: 70%;
+    margin-left: 7%;
+    width: 100%;
+}
+.Alart button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.Alart button i {
+    font-size: 20px;
+    color: white;
+}
+
+.Alart button:hover {
+    background-color: rgb(134, 9, 9);
+
+}
+@media(max-width:650px)
+{
+    .Alart {
+        margin-top:300%;
+    }
+    .Alart h1 {
+        font-size: 20px;
+    }
+    
+    .Alart i {
+        font-size: 40px;
+    }
+    
+    .Alart h2 {
+        font-size: 15px;
+    }
+    .Alart button {
+        font-size: 15px;
+        margin-top: 20%;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .Alart button a{
+        font-size: 15px;
+    }
+}
+
+/* End Style of Part Six */
+.PREVENTION {
+    width: 100%;
+    height: 110vh;
+    padding-top: 3%;
+    background-color: black;
+}
+
+.PREVENTION h4 {
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.PREVENTION h1 {
+    font-size: 45px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.PREVENTION p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 15px;
+}
+
+.PREVENTION .card {
+    background-color: transparent;
+}
+
+.PREVENTION .card-body {
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.PREVENTION .card-body img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    margin-left: 25%;
+
+}
+
+.PREVENTION .card h2 {
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.PREVENTION .card p {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+.PREVENTION button {
+    margin-top: 5%;
+    background-color: rgb(167, 13, 13);
+    border-radius: 23px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    width: 25%;
+    height: 6%;
+    margin-left: 35%;
+}
+.PREVENTION button a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 0px;
+}
+.PREVENTION button a:hover {
+    font-size: 15.5px;
+}
+.PREVENTION a {
+    color: rgb(150, 9, 9);
+    font-size: 20px;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+.PREVENTION a:hover {
+    color: white;
+    font-size: 20.5px;
+}
+
+.PREVENTION button:hover {
+    background-color: rgb(150, 9, 9);
+    color: white;
+}
+
+.PREVENTION i {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+@media(max-width:650px)
+{
+    .PREVENTION {
+        padding-top: 20%;
+    }
+   .PREVENTION h4 {
+        font-size: 20px;
+    }
+    
+   .PREVENTION h1 {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    
+   .PREVENTION p {
+        margin-top: 10px;
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 15px;
+    }
+    .PREVENTION .card-body {
+        margin-bottom: 25px;
+    }
+    .PREVENTION .card h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .PREVENTION button {
+        width: 100%;
+        margin-left: 0px;
+    }
+    .PREVENTION a {
+        margin-left:25%;
+        margin-top: 5%;
+    }
+}
+/* End Style of Part Seven */
+.protect-others {
+    width: 100%;
+    height: 100vh;
+    padding-top: 8%;
+}
+
+.protect-others h1 {
+    color: rgb(199, 173, 23);
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.protect-others i {
+    color: rgb(199, 173, 23);
+    margin-right: 5px;
+    
+}
+
+.protect-others h6 {
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.protect-others .fa-shield-alt {
+    margin-left: 25%;
+    margin-top: 25%;
+    font-size: 400px;
+    color: rgb(155, 13, 13);
+    border-radius: 70%;
+    border: 3px solid rgb(150, 9, 9);
+    animation-name:move;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+
+}
+@keyframes move {
+    
+
+    25%{
+        transform: rotatey(90deg);
+    }
+    50%{
+        transform: rotatey(180deg);
+    }
+    75%{
+        transform: rotatey(270deg);
+    }
+    100%{
+        transform: rotatey(360deg);
+    }
+}
+@media(max-width:650px)
+{
+    .protect-others{
+        margin-top: 500%;
+    }
+    .protect-others .fa-shield-alt{
+        margin-left: 15%;
+        font-size: 200px;
+    }
+}
+
+/* End Style of Part eight */
+.wash-hands {
+    width: 100%;
+    height: 80vh;
+    padding-top: 5%;
+    background-color: black;
+}
+
+.wash-hands a {
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+.wash-hands i {
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.wash-hands a:hover {
+    text-decoration: underline;
+}
+
+.wash-hands h1 {
+    font-size: 45px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.wash-hands .card {
+    background-color: transparent;
+}
+
+.wash-hands .card img {
+    width: 85%;
+    height: 60%;
+    border-radius: 50%;
+    margin-top: 50px;
+    border: rgb(199, 173, 23) 3px solid;
+}
+
+.wash-hands .card h2 {
+    color:rgb(199, 173, 23);
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+}
+@media(max-width:650px){
+    .wash-hands{
+        margin-top: 200%;
+        background-color: transparent;
+    }
+    .wash-hands {
+        padding-top: 20%;
+    }
+   .wash-hands h4 {
+        font-size: 20px;
+    }
+    
+   .wash-hands h1 {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    .wash-hands .card{
+        margin-left: 5%;
+    }
+}
+
+/* End Style of Part nine */
+.TREATMENT {
+    width: 100%;
+    height: 80vh;
+    padding-top: 5%;
+}
+.TREATMENT h4 {
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.TREATMENT h1 {
+    font-size: 45px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.TREATMENT h6{
+    color: rgb(150, 9, 9);
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    margin-bottom: 10px;
+}
+.TREATMENT p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    margin-top: 10px;
+    text-align: left;
+    margin-bottom: 80px;
+}
+.TREATMENT .Self-Care{
+    height: 80%;
+    margin-left: 8%;
+    background-color: rgba(87, 80, 80, 0.26);
+}
+.TREATMENT .Self-Care h1{
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif; 
+    padding-bottom:15px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+}
+.TREATMENT .Self-Care h2{
+    margin-bottom: 5px;
+    font-size: 15px;
+    color: white;
+}
+.TREATMENT .Self-Care h2 i{
+    margin-right: 5px;
+}
+.TREATMENT .Self-Care p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+@media(max-width:650px){
+    .TREATMENT{
+        margin-top: 400%;
+    }
+    .TREATMENT h4 {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+   .TREATMENT h1 {
+        font-size: 35px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .TREATMENT .Self-Care{
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+/*  End part Nin */
+.PROTECT-YOURSELF{
+    width: 100%;
+    height: 120vh;
+    padding-top: 5%;
+    background-color: black;
+}
+.PROTECT-YOURSELF h4 {
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.PROTECT-YOURSELF h1 {
+    font-size: 45px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.PROTECT-YOURSELF p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Righteous', cursive;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.PROTECT-YOURSELF .left h1{
+    padding-top: 25%;
+    color: rgb(199, 173, 23);
+    font-size:15px;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom:60%;
+}
+.PROTECT-YOURSELF .left img{
+    width: 50%;
+    height: 25%;
+    margin-bottom:25%;
+    border: 2px solid rgb(199, 173, 23);
+    border-radius: 50%;
+   
+
+}
+.PROTECT-YOURSELF .center img{
+    width: 90%;
+
+}
+.PROTECT-YOURSELF .right h1{
+    padding-top: 25%;
+    color: rgb(199, 173, 23);
+    font-size:15px;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom:60%;
+}
+.PROTECT-YOURSELF .right img{
+    width: 50%;
+    height: 25%;
+    margin-bottom:25%;
+    border: 2px solid rgb(199, 173, 23);
+    border-radius: 50%;
+}
+@media(max-width:650px)
+{
+    .PROTECT-YOURSELF{
+     margin-top: 350%;
+     height: auto;
+    }
+    .PROTECT-YOURSELF .center img{
+        display: none;
+    }
+}
+/* End part ten */
+.FAQ{
+    width: 100%;
+    height: 80vh;
+    padding-top: 5%;;
+}
+.FAQ h4 {
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.FAQ h1 {
+    font-size: 45px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.FAQ h6{
+    color: rgb(167, 13, 13);
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.FAQ label{
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    text-align:justify;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 25px;
+    margin-left: 50%;
+}
+.FAQ .main{
+    margin-top: 5%;
+}
+.FAQ .mainlable{
+    margin-top: 5%;
+}
+.FAQ input{
+    width:75%;
+    height: 30px;
+    background-color: white;
+    border: 1px solid rgb(155, 13, 13);
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+.FAQ button{
+    width: 20%;
+    height: 60%;
+    background-color: rgb(167, 13, 13);
+    color: white;
+    border: 1px white solid;
+    border-radius: 5px;
+    margin-top: 30%;
+}
+.FAQ button:hover{
+    background-color: rgba(0, 128, 0, 0.822);
+}
+.FAQ .fa-question{
+    color: rgb(167, 13, 13);
+    font-size: 350px;
+    animation-name:move;
+    animation-duration:2s;
+    animation-iteration-count:infinite;
+}
+@media(max-width:650px)
+{
+    .FAQ label{
+        margin-left: 30%;
+        font-size: 20px;
+        text-align: center;
+    }
+    .FAQ input{
+        width: 100%;
+
+    }
+    .FAQ .fa-question{
+        font-size: 200px;
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+    .FAQ button{
+        width: 100%;
+        height: 30px;
+        margin-top: 10%;
+    }
+}
+/*End part 11 */
+.LATEST-UPDATE{
+    width: 100%;
+    height: 110vh;
+    padding-top: 15%;
+}
+.LATEST-UPDATE h4 {
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.LATEST-UPDATE h1 {
+    font-size: 45px;
+    color: white;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.LATEST-UPDATE .card {
+    width: 90%;
+    height: 80%;
+    background-color: transparent;
+}
+
+.LATEST-UPDATE .card img {
+    border-bottom: 2px rgb(199, 173, 23) solid;
+}
+
+.LATEST-UPDATE .card h2 {
+    color: rgb(199, 173, 23);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.LATEST-UPDATE .card p {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+@media(max-width:650px)
+{
+    .LATEST-UPDATE{
+        margin-top: 200%;
+    }
+    .LATEST-UPDATE .card{
+        width: 100%;
+    }
+    .LATEST-UPDATE h1{
+        font-size: 40px;
+    }
+}
+/* End part 12 */
+.Footer{
+ padding-top:3%;
+ width: 100%;
+ height: 40vh;
+ background-color: rgba(87, 80, 80, 0.26);
+}
+.Footer h1{
+    color: rgba(199, 173, 23, 0.548);
+    font-size: 20px;
+    font-family:  'Source Sans Pro', sans-serif;
+}
+.Footer p{
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 10px;
+    font-family:  'Source Sans Pro', sans-serif;
+}
+.Footer i{
+    color: rgba(255, 255, 255, 0.568);
+    margin-left: 15px;
+}
+.Footer i:hover{
+    color: rgb(0, 183, 255);
+}
+.Footer a{
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 10px;
+    text-decoration: none;
+    font-family:  'Source Sans Pro', sans-serif;
+    margin-bottom: 1px;
+}
+.Footer a:hover{
+    text-decoration: underline;
+}.Footer .line{
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.568);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Footer p b {
+    color: white;
+    font-size: 12px;
+}
+@media(max-width:650px)
+{
+    .Footer{
+        margin-top: 250%;
+        padding-top:3%;
+        height: 120vh;
+}
+/* End Style Of Project */
